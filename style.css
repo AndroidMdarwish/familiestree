@@ -122,6 +122,7 @@
 
         .genealogy-tree li span h5 {
             background-color: #d1dbfc;
+            cursor:progress;
         }
 
         .genealogy-tree li span h5:hover {
