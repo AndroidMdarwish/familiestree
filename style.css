@@ -193,11 +193,11 @@
 			padding:3px;
         }
 		
-		 #caption {
+		#caption {
             text-align: center;
         }
 		
-		 #myheaders {
+		#myheaders {
             display: inline-flex;
             text-align: center;
             align-items: center;
@@ -289,7 +289,6 @@
         }
 
         @media (max-width:750px) {
-           
 			* {
 				font-size:80%;
 				line-height:2rem;
@@ -355,7 +354,7 @@
         }
 
         table tr:nth-child(even) td {
-            background-color: #ffffff;
+            background-color: #f5e7e7;
             text-align: center;
             border: 1px solid #bbbbbb;
         }
