@@ -354,7 +354,19 @@
         }
 
         table tr:nth-child(even) td {
-            background-color: #f5e7e7;
+            background-color: #f5e7e7d2;
+            text-align: center;
+            border: 1px solid #bbbbbb;
+        }
+
+        table table tr:nth-child(odd) td {
+            background-color: #c2ebf0;
+            text-align: center;
+            border: 1px solid #bbbbbb;
+        }
+
+        table table tr:nth-child(even) td {
+            background-color: #e4ecc5;
             text-align: center;
             border: 1px solid #bbbbbb;
         }
