@@ -107,7 +107,7 @@
         .genealogy-tree li span:hover~ul ul::before {
             border-color: #E32B53;
         }
-	
+
 		/*font and color text span*/
 
         .genealogy-tree li span {
@@ -180,7 +180,7 @@
             text-decoration: none;
             background-color: #f8c9f2;
         }
-		
+
         #navbar {
             position: sticky;
 			top:0;
@@ -192,18 +192,18 @@
 			margin: 5px 3px 0 5px;
 			padding:3px;
         }
-		
+
 		#caption {
             text-align: center;
         }
-		
+
 		#myheaders {
             display: inline-flex;
             text-align: center;
             align-items: center;
             list-style: none;
         }
-		
+
 		h1 {
             padding: 10px 0 0 0;
         }
@@ -376,15 +376,15 @@
         td {
             padding: 5px;
         }
-		
+
 		#Nred{
 			color: red;
 		}
-        
+
         .u {
             text-decoration:underline;
         }
-        
+
         .re{
             text-align:left;
             font-size: 14px;
