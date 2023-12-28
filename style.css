@@ -4,12 +4,12 @@
             box-sizing: border-box;
             font-family: 'Amiri', serif;
             line-height: 1.2rem;
-			font-size: 20px;
+            font-size: 20px;
         }
-		
-		h5.sap {
-			box-shadow: 0 -4px 0 0 #ff2f2880;
-		}
+        
+        h5.sap {
+            box-shadow: 0 -4px 0 0 #ff2f2880;
+        }
 
         .genealogy-body {
             white-space: nowrap;
@@ -100,7 +100,6 @@
         }
 
         /*line selection on hover*/
-
         .genealogy-tree li span:hover~ul li::after,
         .genealogy-tree li span:hover~ul li::before,
         .genealogy-tree li span:hover~ul::before,
@@ -108,8 +107,7 @@
             border-color: #E32B53;
         }
 
-		/*font and color text span*/
-
+        /*font and color text span*/
         .genealogy-tree li span {
             text-decoration: none;
             color: #0040ff;
@@ -130,7 +128,6 @@
         }
 
         /*font and color text list*/
-
         .genealogy-tree li {
             text-decoration: none;
             color: #474747;
@@ -147,13 +144,13 @@
             color: #000000;
             background-color: #c9f3f8;
             border: 1px solid #c1e6eb;
-			font-size:18px;
-			line-height:1.5rem;
+            font-size:18px;
+            line-height:1.5rem;
         }
 
-		details{
-			display: inline;
-		}
+        details{
+            display: inline;
+        }
 
         .genealogy-tree li span h5.sa {
             background-color: #caf8c9;
@@ -289,11 +286,11 @@
         }
 
         @media (max-width:750px) {
-			* {
-				font-size:80%;
-				line-height:2rem;
-			}
-			
+            * {
+                font-size:80%;
+                line-height:2rem;
+            }
+
             #caption ul {
                 flex-direction: column;
             }
@@ -306,11 +303,12 @@
                 position: unset;
                 z-index: unset;
             }
-			.genealogy-tree p {
-			font-size:88%;
-			line-height:1.5rem;
-        }
-			
+
+            .genealogy-tree p {
+            font-size:88%;
+            line-height:1.5rem;
+            }
+
         }
 
         .fa-ellipsis-v {
@@ -339,14 +337,13 @@
         }
 
         table th,
-		#th {
+        #th {
             text-align: center;
             color: #ffffff;
             background-color: #3a6070;
             border: 1px solid #bbbbbb;
         }
 
-		
         table tr:nth-child(odd) td {
             background-color: #e7edf0;
             text-align: center;
@@ -377,9 +374,9 @@
             padding: 5px;
         }
 
-		#Nred{
-			color: red;
-		}
+        #Nred{
+            color: red;
+        }
 
         .u {
             text-decoration:underline;
