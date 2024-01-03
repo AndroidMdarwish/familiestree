@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+
+    <title>Excel</title>
+</head>
+<body>
+    <input type="file" id="excel-file" />
+<button onclick="readExcel()">قراءة ملف Excel</button>
+
+<script>
+  function readExcel() {
+    var input = document.getElementById('excel-file');
+    var file = input.files[0];
+
+    if (file) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        var data = new Uint8Array(e.target.result);
+        var workbook = XLSX.read(data, { type: 'array' });
+
+        // اقرأ البيانات وقم بما تحتاج إليه هنا
+        var firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+        var excelData = XLSX.utils.sheet_to_json(firstSheet, { header: 1 });
+
+        console.log(excelData);
+        // يمكنك القيام بشيء آخر مع البيانات هنا
+      };
+
+      reader.readAsArrayBuffer(file);
+    }
+  }
+</script>
+
+</body>
+</html>
